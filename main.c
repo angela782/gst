@@ -4,5 +4,8 @@
 int main(){
     printf ("Hello world\n");
     printf("A");
+
+    printf("Changes in second branch");
+    printf("A");
     printf("Changes in main");
 }
