@@ -6,5 +6,6 @@ int main(){
     printf("A");
 
     printf("Changes in second branch");
+    printf("Changes in github.com");
     printf("A");
 }
