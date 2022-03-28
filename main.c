@@ -15,7 +15,7 @@ int main(){
             printf ("SUCCESS: main funcion %d\n",i);
         }
         else{
-            printf ("FAILED: main funcion %d\n",i;
+            printf ("FAILED: main funcion %d\n",i);
             ret =-1; 
         }
     }
