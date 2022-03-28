@@ -1,11 +1,22 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(){
-    printf ("Hello world\n");
-    printf("A");
+int funcion(int i){
+    return i;
+}
 
-    printf("Changes in second branch");
-    printf("A");
-    printf("Changes in main");
+int main(){
+    
+    int ret=0;
+
+    for (int i=0;i<10;i++){
+        if (funcion(i)==i){
+            printf ("SUCCESS: main funcion %d\n",i);
+        }
+        else{
+            printf ("FAILED: main funcion %d\n",i;
+            ret =-1; 
+        }
+    }
+    return ret;
 }
