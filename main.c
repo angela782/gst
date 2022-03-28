@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 int funcion(int i){
-    return i;
+
+    return i != 5? i:i-1;
 }
 
 int main(){
